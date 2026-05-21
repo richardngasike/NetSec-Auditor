@@ -1,10 +1,17 @@
 # 🛡️ NetSec Auditor
 
-Production-grade network security assessment tool written in pure Python.
+
+Network security assessment tool written in pure Python by Richard Ngasike
+
+## Screenshot
+
+<p align="center">
+  <img src="screenshots/dashboard.png" width="1000">
+</p>
 
 NetSec Auditor is a modular, extensible command-line tool designed for authorized security assessments of networked hosts and infrastructure. It performs port scanning, SSL/TLS analysis, HTTP security header checks, DNS enumeration, SSH auditing, and known vulnerability detection — then outputs professional reports in console, JSON, and HTML formats.
 
-> ⚠️ Legal Notice: This tool must only be used on systems you own or have explicit written authorization to test. Unauthorized scanning is illegal under the Computer Fraud and Abuse Act (CFAA), the Computer Misuse Act (UK), and equivalent laws worldwide.
+> ⚠️ Legal Notice: This tool must only be used on systems you own or have explicit written authorization to test. Unauthorized scanning is illegal under the Computer Fraud and Abuse Act, the Computer Misuse Act (KE), and equivalent laws worldwide.
 
 ---
 
@@ -42,7 +49,7 @@ cd netsec-auditor
 pip install -r requirements.txt
 
 # Make the entry point executable
-chmod +x main.py
+chmod +x main.py OR python main.py in windowa
 ```
 
 ---
