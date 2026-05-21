@@ -1,0 +1,20 @@
+# NetSec Auditor — Python Dependencies
+# Core tool uses only stdlib. Optional enhancements below.
+
+# --- OPTIONAL: Enhanced port scanning ---
+# python-nmap>=0.7.1          # nmap Python wrapper (requires nmap installed)
+
+# --- OPTIONAL: Enhanced DNS ---
+# dnspython>=2.4.0            # Full DNS resolver library
+
+# --- OPTIONAL: Enhanced CVE lookups ---
+# requests>=2.31.0            # HTTP client for CVE API queries
+# nvdlib>=0.7.6               # NIST NVD CVE database client
+
+# --- Development & Testing ---
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# --- OPTIONAL: Report enhancements ---
+# jinja2>=3.1.2               # Template-based HTML reports
+# rich>=13.7.0                # Rich terminal output
